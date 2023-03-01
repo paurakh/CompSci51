@@ -1,0 +1,21 @@
+varients allow us to define times under an overarching umbrella types 
+varients provide a type-safe way of defining something that may not be within the bounds 
+
+
+
+type expr = 
+| Int of int 
+| Plus of expr*expr
+| Minus of expr*expr
+| Times of expr*expr
+| Div of expr*expr
+| Neg of expr*expr;;
+
+
+
+let rec eval (exp: expr): int = 
+  match exp with 
+  | ;;
+
+
+exception Too_much ;; 
